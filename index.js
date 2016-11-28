@@ -51,8 +51,8 @@ var SwipeoutBtn = React.createClass({
     //  apply text color
     if (btn.color) styleSwipeoutBtnText.push([{
       color: btn.color,
-      fontFamily: 'SourceSerifPro-Light',
-      fontSize: 16,
+      fontFamily: btn.fontFamily,
+      fontSize: btn.fontSize,
     }])
 
     return  (
